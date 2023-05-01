@@ -754,7 +754,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 545f02ff6828ade4cb534796b25843cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 50
+  moveForce: 15
+  stretchForce: 30
+  maxStretchDistancePercent: 1.5
 --- !u!43 &274846792
 Mesh:
   m_ObjectHideFlags: 0
@@ -2083,7 +2085,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7659121579172656969, guid: 913963df637c048469025ccdbdf2d1eb, type: 3}
   m_PrefabInstance: {fileID: 7659121580601969128}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1829260471
+--- !u!114 &1829260476
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2096,6 +2098,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 15
+  stretchForce: 15
+  maxStretchDistancePercent: 1.5
 --- !u!1 &1846286297
 GameObject:
   m_ObjectHideFlags: 0
