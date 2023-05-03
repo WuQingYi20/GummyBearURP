@@ -635,7 +635,7 @@ MonoBehaviour:
   m_VertexDensity: 2
   m_SphereRadius: 0.25
   m_DistanceExponent: 1
-  m_Stiffness: 5
+  m_Stiffness: 7
   m_Mass: 0.5
   m_LockRotation: 1
   m_GravityScale: 1
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_RadiusPoints: 8
   m_GridColumns: 4
   m_GridRows: 4
-  m_DampingRatio: 1
+  m_DampingRatio: 3
   m_SoftBodyScale: {x: 1, y: 1}
   m_SoftBodyRotation: 0
   m_SoftBodyOffset: {x: -0, y: -0}
@@ -755,8 +755,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 15
-  stretchForce: 30
-  maxStretchDistancePercent: 1.5
+  stretchForce: 300
+  maxStretchDistancePercent: 150
+  unstretchedForcePercentage: 0.25
 --- !u!43 &274846792
 Mesh:
   m_ObjectHideFlags: 0
@@ -2098,8 +2099,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 15
-  stretchForce: 15
-  maxStretchDistancePercent: 1.5
+  stretchForce: 200
+  maxStretchDistancePercent: 15
+  unstretchedForcePercentage: 0.25
 --- !u!1 &1846286297
 GameObject:
   m_ObjectHideFlags: 0
@@ -2836,6 +2838,14 @@ PrefabInstance:
     - target: {fileID: 7659121579172656970, guid: 913963df637c048469025ccdbdf2d1eb, type: 3}
       propertyPath: m_RadiusPoints
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659121579172656970, guid: 913963df637c048469025ccdbdf2d1eb, type: 3}
+      propertyPath: m_AttachNeighbors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659121579172656970, guid: 913963df637c048469025ccdbdf2d1eb, type: 3}
+      propertyPath: m_CentralBodyKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659121579172656971, guid: 913963df637c048469025ccdbdf2d1eb, type: 3}
       propertyPath: m_Materials.Array.data[0]
