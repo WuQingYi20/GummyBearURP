@@ -67,21 +67,31 @@ public class GummyBearController : MonoBehaviour
         float stretchFactorX = 1.0f + stretchDirection.x;
         float stretchFactorY = 1.0f + stretchDirection.y;
 
-        float targetArea = initialTotalArea * stretchFactorX * stretchFactorY;
-        float scaleFactor = Mathf.Sqrt(targetArea / initialTotalArea);
-
-        int refPointIndex = 0;
-        for (int i = 0; i < m_JellySprite.ReferencePoints.Count; i++)
+        // Calculate the opposite stretch factor to maintain the area
+        if (stretchDirection.x != 0)
         {
-            JellySprite.ReferencePoint refPoint = m_JellySprite.ReferencePoints[i];
-            if (refPoint.Body2D != null && refPoint != m_JellySprite.CentralPoint)
-            {
-                Vector2 initialOffset = initialOffsets[refPointIndex];
-                Vector2 stretchedOffset = new Vector2(initialOffset.x * stretchFactorX, initialOffset.y * stretchFactorY);
-                Vector2 targetPosition = m_JellySprite.CentralPoint.Body2D.position + (Vector2)(stretchedOffset * scaleFactor);
-                refPoint.Body2D.MovePosition(targetPosition);
-                refPointIndex++;
-            }
+            stretchFactorY = initialTotalArea / (initialTotalArea * stretchFactorX);
+        }
+        else if (stretchDirection.y != 0)
+        {
+            stretchFactorX = initialTotalArea / (initialTotalArea * stretchFactorY);
+        }
+
+        // The target area remains the same as the initial area
+        float targetArea = initialTotalArea;
+
+        var referencePointsToMove = m_JellySprite.ReferencePoints
+            .Where(refPoint => refPoint.Body2D != null && refPoint != m_JellySprite.CentralPoint)
+            .ToList();
+
+        for (int i = 0; i < referencePointsToMove.Count; i++)
+        {
+            JellySprite.ReferencePoint refPoint = referencePointsToMove[i];
+            Vector2 initialOffset = initialOffsets[i];
+            Vector2 stretchedOffset = new Vector2(initialOffset.x * stretchFactorX, initialOffset.y * stretchFactorY);
+            // Since the area remains the same, no need to multiply by a scaleFactor
+            Vector2 targetPosition = m_JellySprite.CentralPoint.Body2D.position + stretchedOffset;
+            refPoint.Body2D.MovePosition(targetPosition);
         }
     }
 
@@ -115,16 +125,11 @@ public class GummyBearController : MonoBehaviour
     {
         if (!isInitialized)
         {
-            initialReferencePointOffsets = new List<Vector2>();
+            initialReferencePointOffsets = m_JellySprite.ReferencePoints
+                .Where(refPoint => refPoint != m_JellySprite.CentralPoint)
+                .Select(refPoint => (Vector2)(refPoint.transform.position - m_JellySprite.CentralPoint.transform.position))
+                .ToList();
 
-            foreach (var refPoint in m_JellySprite.ReferencePoints)
-            {
-                if (refPoint != m_JellySprite.CentralPoint)
-                {
-                    Vector2 initialOffset = refPoint.transform.position - m_JellySprite.CentralPoint.transform.position;
-                    initialReferencePointOffsets.Add(initialOffset);
-                }
-            }
             CalculateInitialOffsetsAndArea();
             isInitialized = true;
         }
