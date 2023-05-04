@@ -755,9 +755,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 15
-  stretchForce: 300
-  maxStretchDistancePercent: 150
-  unstretchedForcePercentage: 0.25
+  stretchForce: 12.1
+  maxStretchDistancePercent: 3
+  unstretchedForcePercentage: 0.111
+  ajustPower: 1
 --- !u!43 &274846792
 Mesh:
   m_ObjectHideFlags: 0
@@ -1085,7 +1086,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377232995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.14, y: 3.14, z: 0}
+  m_LocalPosition: {x: -1.97, y: 4.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2099,9 +2100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 15
-  stretchForce: 200
-  maxStretchDistancePercent: 15
+  stretchForce: 25.5
+  maxStretchDistancePercent: 1.56
   unstretchedForcePercentage: 0.25
+  ajustPower: 1
 --- !u!1 &1846286297
 GameObject:
   m_ObjectHideFlags: 0
