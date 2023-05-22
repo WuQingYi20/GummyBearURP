@@ -2908,3 +2908,304 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7659121579172656974, guid: 913963df637c048469025ccdbdf2d1eb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 913963df637c048469025ccdbdf2d1eb, type: 3}
+--- !u!1001 &8401741137113659748
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8401741136036534832, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136036534832, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136036534833, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136036534833, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136036534834, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136036534834, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136090173440, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136090173440, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136090173446, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136090173446, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136090173447, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136090173447, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136136859305, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136136859305, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136136859306, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136136859306, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136136859307, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136136859307, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136405555266, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136405555266, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136405555267, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136405555267, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136405555276, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136405555276, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136425371851, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Name
+      value: bone_central
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136464152363, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136464152363, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136464152372, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136464152372, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136464152373, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136464152373, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136553819955, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136553819955, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136553819964, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136553819964, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136553819965, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136553819965, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136758702593, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136758702593, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136758702594, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136758702594, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136758702595, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136758702595, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316353, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Name
+      value: GummyBearBone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.009853605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136819316364, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136903948571, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136903948571, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136903948772, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136903948772, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136903948773, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741136903948773, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137159257380, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137159257380, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137159257381, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137159257381, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137159257435, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137159257435, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137215681928, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137215681928, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137215681934, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137215681934, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137215681935, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_Frequency
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401741137215681935, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3f7821c0ee713ca47a0102d7bb5659c8, type: 3}
